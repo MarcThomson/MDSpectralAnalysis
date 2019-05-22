@@ -1,5 +1,7 @@
 # Introduction
-This repository contains the 
+This repository contains the essential data and code from Marc Thomson's Master's Thesis at the University of Colorado Boulder, Department of Applied Mathematics. The idea behind the thesis is to reduce the number of points necesary to compute a spectrum from a molecular dynamics simulation using knowledge of the structure of the spectrum. A pdf copy of the thesis will be available soon at: https://scholar.colorado.edu/appm_gradetds/.
+
+The following two sections will describe the contents of the repository with brief descriptions of how to use the data and codes.
 
 # Data
 
@@ -14,3 +16,5 @@ Vacf_total_NaCl_n.mat contains the nth part of the computed velocity autocorrela
 Vacf_total_MetOH_n.mat contains the nth part of the computed velocity autocorrelation function for the methanol system. The data is partitioned to be allowed on github. To combine the data, run '[t,Vx,Vy,Vz] = loadMetOHVel()' in the proper directory. Time is in fs.
 
 # Code
+
+This hasn't been added yet. Check back later!
