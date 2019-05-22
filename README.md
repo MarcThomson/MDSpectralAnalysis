@@ -17,4 +17,6 @@ Vacf_total_MetOH_n.mat contains the nth part of the computed velocity autocorrel
 
 # Code
 
-This hasn't been added yet. Check back later!
+CalculateVACF_n calculates the velocity autocorrelation function using supplied velocity and time data. 
+
+The remainder hasn't been added yet. Check back later!
