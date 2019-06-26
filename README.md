@@ -15,6 +15,8 @@ Vacf_total_NaCl_n.mat contains the nth part of the computed velocity autocorrela
 
 Vacf_total_MetOH_n.mat contains the nth part of the computed velocity autocorrelation function for the methanol system. The data is partitioned to be allowed on github. To combine the data, run '[t,Vx,Vy,Vz] = loadMetOHVel()' in the proper directory. Time is in fs.
 
+The directories "Methanol_gen_files" and "Nacl_gen_files" contain the code used for LAMMPS to generate the datasets. These are essentially the example scripts included with the software, with minor modifications to output the velocity data. Velocities will be output in the file "velocity.dat" which the user can then parse. Also, the scripts will output images of the simulations at regular intervals.
+
 # Code
 
 CalculateVACF_n calculates the velocity autocorrelation function using supplied velocity and time data. 
